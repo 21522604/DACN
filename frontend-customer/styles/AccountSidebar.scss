@@ -1,0 +1,33 @@
+.account-sidebar {
+
+    border-right: 1px solid #ccc;
+    padding: 0 16px;
+
+    .title {
+        margin: 32px 0 16px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .sidebar-items {
+
+        .sidebar-item {
+            height: 39px;
+            margin-bottom: 16px;
+            padding: 10px 20px;
+            border: 1px solid #000;
+            background-color: #fff;
+            color: #000;
+            text-decoration: none;
+
+            &:hover {
+                background-color: #ccc;
+            }
+        }
+
+        .sidebar-item.active {
+            background-color: #000;
+            color: #fff;
+        }
+    }
+}

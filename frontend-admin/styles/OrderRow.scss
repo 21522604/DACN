@@ -1,0 +1,41 @@
+    .order-manage-table {
+        margin-bottom: 0 !important;
+        table-layout: fixed;
+
+        tr {
+            border: 1px solid #ccc;
+
+            .col-checkbox {
+                width: 4%;
+            }
+
+            .col-order-id {
+                width: 31%;
+            }
+
+            .col-state {
+                width: 15%;
+            }
+
+            .col-create-at {
+                width: 15%;
+            }
+
+            .col-total-value {
+                width: 15%;
+            }
+
+            .col-action {
+                width: 20%;
+            }
+
+            td {
+                border: 1px solid #ccc;
+            }
+
+            th {
+                border: 1px solid #ccc;
+                height: 50px;
+            }
+        }
+    }

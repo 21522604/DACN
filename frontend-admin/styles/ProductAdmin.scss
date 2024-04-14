@@ -1,0 +1,56 @@
+.product-admin {
+    margin-bottom: 0 !important;
+    table-layout: fixed;
+
+    tr {
+        border: 1px solid #ccc;
+
+        .col-infor-product {
+            width: 36%;
+        }
+
+        .col-price {
+            width: 12%;
+        }
+
+        .col-quantity {
+            width: 8%;
+        }
+
+        .col-createAt {
+            width: 16%;
+        }
+
+        .col-state {
+            width: 14%;
+        }
+
+        .col-action {
+            width: 14%;
+        }
+
+        td {
+            border: 1px solid #ccc;
+        }
+
+        th {
+            border: 1px solid #ccc;
+            height: 50px;
+        }
+    }
+
+    p {
+        margin: 4px;
+    }
+
+    img {
+        max-width: 30%;
+        height: auto;
+    }
+
+    .edit-price-button {
+        padding: 4px;
+        font-size: 10px;
+        text-decoration: underline;
+    }
+}

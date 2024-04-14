@@ -1,0 +1,49 @@
+.feedback-box {
+    padding: 0 64px;
+
+    .feedback-item {
+        min-height: 124px;
+        border-bottom: 1px solid #ccc;
+
+        .line-feedback {
+            padding: 18px 0;
+
+            .ant-rate {
+
+                span {
+                    font-size: 12px;
+                }
+
+                .ant-rate-star-full {
+                    color: var(--order-table-color);
+                }
+            }
+
+            .feedback-content-container {
+                padding-top: 8px;
+
+                .feedback-user-name {
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+
+                .feedback-colour {
+                    margin-bottom: 12px;
+                    font-size: 12px;
+                    font-style: italic;
+                    font-weight: 500;
+                    color: rgba(0, 0, 0, 0.4);
+                }
+
+                .feedback-content {
+                    text-align: justify;
+                }
+
+                .feedback-date {
+                    margin-top: 20px;
+                    color: rgba(0, 0, 0, 0.4);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.option-button {
+    padding         : 8px 8px;
+    border          : 1px solid #000;
+    border-radius   : 13px !important;
+    cursor          : pointer;
+    margin          : 8px 10px 0px 0;
+    font-size       : 13px;
+    background-color: rgb(242, 242, 242);
+    color           : #000;
+    min-width       : 66px;
+    transition      : all 0.2s ease-in-out;
+}
+
+.option-button.focus {
+    color           : #fff;
+    background-color: #000;
+}

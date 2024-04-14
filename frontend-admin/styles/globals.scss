@@ -1,0 +1,34 @@
+@import "./LoginPage.scss";
+@import "./CatalogManagementPage.scss";
+@import "./ProductManagementPage.scss";
+@import "./CreateProductPage.scss";
+@import "./UpdateProductPage.scss";
+@import "./OrderDetailPage.scss";
+
+@import "./Header.scss";
+@import "./Section.scss";
+@import "./CreateCategoryModal.scss";
+@import "./ProductAdmin.scss";
+@import "./OrderRow.scss";
+@import "./Category.scss";
+@import "./Loading.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --height-header: 68px;
+  --height-sub-header: 56px;
+  --main-color: #f37021;
+  --sub-color: #FBE9E7;
+  --white: white;
+  --black: #000;
+  --height-input-on-search: 40px;
+}

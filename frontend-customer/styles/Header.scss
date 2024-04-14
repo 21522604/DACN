@@ -1,0 +1,118 @@
+.header-wrapper {
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.header {
+    height          : var(--height-header);
+    background-color: #fff;
+}
+
+.header .logo-box {
+    display    : inline-block;
+    margin-left: 20px;
+}
+
+.header .logo {
+    height: var(--height-header);
+    width : auto;
+    top   : 0;
+    cursor: pointer;
+}
+
+.header ul {
+    z-index: 100;
+    display: inline-block;
+    margin : 0;
+}
+
+.header ul li {
+    display  : inline-block;
+    font-size: 14px;
+}
+
+.header ul.menu>li>a {
+    line-height    : var(--height-header);
+    padding        : 0 16px;
+    text-decoration: none;
+    color          : #000;
+    display        : inline-block;
+}
+
+.header ul.menu>li>a::after {
+    content         : "";
+    position        : absolute;
+    height          : 2px;
+    width           : 100%;
+    background-color: var(--black);
+    left            : 0;
+    display         : none;
+    bottom          : 8px;
+}
+
+.header ul li:hover a::after {
+    display: block;
+}
+
+.header .header-inner {
+    margin-right: 20px;
+}
+
+.header .inner-item {
+    line-height: var(--height-header);
+}
+
+.header ul.header-inner li a {
+    padding        : 6px 16px;
+    text-decoration: none;
+    border-radius  : 6px;
+    margin         : 0px 2px;
+    transition     : all .2s linear;
+    color          : var(--black);
+}
+
+.header .menu li:hover .sub-menu {
+    display: block;
+}
+
+.menu .sub-menu {
+    left            : 0;
+    top             : var(--height-header);
+    min-width       : 240px;
+    background-color: var(--white);
+    padding         : 0;
+    display         : none;
+    box-shadow      : rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    animation       : showSubMenu .3s linear;
+
+    li a {
+        padding        : 10px 16px;
+        text-decoration: none;
+        color          : #000;
+        display        : block;
+        transition     : all .2s linear;
+    }
+
+    li a:hover {
+        color: #ccc;
+    }
+}
+
+.cart {
+    a {
+        svg {
+            margin-bottom: 6px;
+        }
+    }
+}
+
+@keyframes showSubMenu {
+    from {
+        opacity  : 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity  : 1;
+        transform: translateX(0);
+    }
+}

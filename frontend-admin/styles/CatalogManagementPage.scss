@@ -1,0 +1,22 @@
+.catalog-management-page {
+
+    .catalog-management-item {
+
+        .create-btn-container {
+            margin: 6px 0 6px;
+
+            button {
+                margin-right: 4px;
+            }
+        }
+
+        .table-container {
+            background-color: #f6f6f6;
+            overflow-y: scroll;
+
+            table {
+                background-color: #fff;
+            }
+        }
+    }
+}

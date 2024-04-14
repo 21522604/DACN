@@ -1,0 +1,34 @@
+.feedback-modal {
+
+    .modal-head {
+        margin: 8px 0;
+    }
+
+    .modal-body {
+        margin: 12px 0;
+
+        .rating-box {
+            margin-left: 22px;
+
+            .ant-rate-star-full {
+                color: var(--order-table-color);
+            }
+        }
+
+        .content-box {
+            margin: 2px 0;
+        }
+
+        >div {
+            margin: 4px 0;
+        }
+    }
+
+    .modal-foot {
+        .rate-btn {
+            padding: 6px 16px;
+            cursor: pointer;
+            margin: 6px 0;
+        }
+    }
+}

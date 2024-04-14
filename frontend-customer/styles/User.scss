@@ -1,0 +1,59 @@
+.user {
+    height: 100vh;
+    z-index: 1000;
+    background-color: rgba(172, 172, 172, 0.5);
+
+    .user-box {
+        background-color: var(--white);
+        width: 50vw;
+        max-width: 600px;
+        margin: auto;
+        padding: 44px;
+
+        .heading {
+            padding-bottom: 8px;
+        }
+
+        input {
+            padding: 6px 12px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            border: 1px solid var(--black);
+            margin: 8px 0;
+            color: var(--white);
+            background-color: var(--black);
+            transition: all 0.2s linear;
+            height: 39px;
+            padding: 5px 20px;
+        }
+
+        button:hover {
+            color: var(--black);
+            border: 1px solid #ccc;
+            background-color: #ccc;
+        }
+    }
+
+    .header-form {
+        top: 0;
+        right: 0;
+        padding: 12px 12px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .footer-form {
+        .footer-form-item {
+            text-decoration: none;
+            padding: 16px 0 4px;
+            transition: all .2s ease;
+        }
+
+        .footer-form-item:hover {
+            color: var(--black);
+        }
+    }
+}

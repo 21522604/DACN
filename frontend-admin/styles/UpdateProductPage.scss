@@ -1,0 +1,52 @@
+.update-product-page {
+
+    .update-product-form {
+        label {
+            font-size: 18px;
+            margin: 6px 0px 4px 0;
+        }
+
+        .row-product-variant {
+
+            .col-colour {
+                width: 8%;
+            }
+
+            .col-size {
+                width: 8%;
+            }
+
+            .col-quantity {
+                width: 12%;
+            }
+
+            .col-image {
+                width: 100%;
+                border-left: none;
+            }
+
+            .col-delete {
+                width: 4%;
+            }
+        }
+    }
+
+    .ckeditor-box {
+        margin-top: 4px;
+        margin-bottom: 5px;
+    }
+
+    .btn-box {
+        margin: 16px 0;
+
+        button {
+            padding: 4px 16px;
+            border: 1px solid #000;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            opacity: .8;
+        }
+    }
+}

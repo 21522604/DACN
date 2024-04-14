@@ -1,0 +1,18 @@
+.policy-item {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    padding: 10px;
+
+    .icon-box {
+        margin: 8px;
+        svg {
+            font-size: 18px;
+        }
+    }
+
+    .des-box {
+        span {
+            font-size: 12px;
+        }
+    }
+}
