@@ -1,0 +1,165 @@
+.home-page {
+    .homepage-basic {
+        margin: 0 -64px;
+
+        .content-left {
+            padding: 4rem 2.5rem 4rem 4rem;
+            width: 672px !important;
+
+            .content_h2 {
+                font-size: 5.25rem;
+                line-height: 1;
+                font-weight: 400;
+                margin: 0 0 2.25rem;
+                margin-bottom: 2.25rem;
+            }
+
+            .content_p {
+                font-size: 1rem;
+                font-weight: 300;
+                line-height: 1.5;
+                margin: 0 0 3.5rem;
+                margin-bottom: 2.25rem;
+            }
+
+        }
+
+        .content-right {
+            flex-grow: 1;
+            flex-shrink: 1;
+            width: calc(100vh - 672px);
+        }
+
+        img {
+            max-width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .homepage-brands {
+        font-family: Pangea, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #231f20;
+        text-align: left;
+        margin: 50px -48px;
+
+        .homepage-brands-content {
+            position: absolute;
+            top: 50%;
+            left: 4rem;
+            max-width: 292px;
+            transform: translate3d(0, -50%, 0);
+
+            .content_h2 {
+                color: #242424;
+                font-size: 3.75rem;
+                line-height: 1;
+                margin-bottom: 1rem;
+                font-weight: 400;
+            }
+
+            .content_p {
+                margin: 16px 0px 36px;
+                line-height: 1.5;
+                text-align: left;
+            }
+        }
+
+        >div {
+            gap: 2rem;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+
+    .homepage-hagstag {
+        background-color: #111213;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        color: #f5f5f5;
+        margin: 100px 0;
+
+        >div {
+            >div:last-child {
+                padding: 0px 16px;
+            }
+        }
+
+        .hagstag-title {
+            font-size: 2.55rem;
+            font-weight: 600;
+            line-height: 1;
+            margin: 0;
+            padding: 0 1rem;
+        }
+
+        p {
+            margin: 0;
+            text-align: right;
+            font-size: .9rem;
+            font-weight: 500;
+            text-align: right;
+            line-height: 1.5;
+            margin: 0;
+            white-space: nowrap;
+        }
+    }
+
+    .homepage-service {
+        margin-bottom: 100px;
+        margin-top: 100px;
+        margin: 50px -48px;
+        color: #fff;
+        text-align: left;
+
+        .homepage-service-content {
+            position: absolute;
+            bottom: 0;
+            transform: translate3d(0, -50%, 0);
+            padding: 6px 1.5rem;
+
+            .title {
+                font-weight: 700;
+                line-height: 1.25;
+                color: #fff;
+                font-size: 1.5rem !important;
+            }
+
+            .title:last-child {
+                background-color: #fff;
+                border-radius: 50%;
+                font-size: 16px;
+                color: #000;
+                padding: 6px 8px;
+                transform: rotate(45deg);
+            }
+        }
+
+        >div {
+            gap: 2rem;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+        }
+    }
+
+
+    button {
+        padding: 10px 30px;
+        margin: 0px 0px 25px;
+        margin-top: 8px;
+        border: none;
+        color: var(--white);
+        background-color: var(--order-table-color);
+    }
+}

@@ -1,0 +1,62 @@
+.create-product-page {
+
+    .create-product-form {
+        label {
+            font-size: 18px;
+            margin: 6px 0px 4px 0;
+        }
+
+        .row-product-variant {
+
+            .col-colour {
+                width: 10%;
+            }
+
+            .col-size {
+                width: 10%;
+            }
+
+            .col-quantity {
+                width: 12%;
+            }
+
+            .col-image {
+                width: 100%;
+                border-left: none;
+            }
+        }
+    }
+
+    .searchWrapper {
+        max-height: 38.33px;
+        overflow: hidden;
+        overflow-y: scroll;
+        margin-top: 4px;
+        margin-bottom: 5px;
+        border: 1px solid #000;
+    }
+
+    .searchWrapper::-webkit-scrollbar {
+        width: 0;
+        background-color: #F5F5F5;
+    }
+
+    .ckeditor-box {
+        margin-top: 4px;
+        margin-bottom: 5px;
+    }
+
+    .btn-box {
+        margin: 16px 0;
+
+        button {
+            padding: 4px 16px;
+            border: 1px solid #000;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            opacity: .8;
+        }
+    }
+}

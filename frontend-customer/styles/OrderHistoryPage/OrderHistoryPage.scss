@@ -1,0 +1,140 @@
+// orders (order page)
+.order-history-page {
+
+    .orders-tab {
+
+        .title {
+            font-size: 30px;
+            font-weight: 600;
+            margin: 32px 0 16px;
+        }
+    }
+
+    .orders-body {
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+// Order
+.order {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 27px;
+    cursor: pointer;
+
+    .order-header {
+        position: relative;
+        z-index: 2;
+        padding: 10px 30px;
+        background-color: var(--order-table-color);
+        color: #fff;
+
+        .order-title {
+            margin: 0;
+            font-size: 17px;
+        }
+
+        .order-date {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .order-status {
+            height: 17px;
+            margin: 0;
+            padding: 0 10px;
+            border-radius: 5px;
+            background-color: #fff;
+            color: var(--order-table-color);
+            font-size: 12px;
+            line-height: 17px;
+        }
+    }
+
+    .order-body {
+        position: relative;
+        z-index: 1;
+        margin-top: -16px;
+        border: 1px solid #ccc;
+        border-radius: 0 0 16px 16px;
+        padding-top: 16px;
+        background-color: #fff;
+    }
+
+    .order-footer {
+        position: relative;
+        z-index: 0;
+        margin-top: -16px;
+        padding: 24px 30px 8px;
+        background-color: #ccc;
+        border-radius: 0 0 16px 16px;
+        color: #000;
+    }
+}
+
+// orderItem (each product in order)
+.order-item {
+    padding: 16px 30px;
+    color: #000;
+
+    .box-img {
+        position: relative;
+        width: 100px;
+
+        &::before {
+            content: '';
+            display: block;
+            padding-top: 111.76470588%;
+            height: 0;
+            width: 100%;
+        }
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .order-item-info {
+        padding-right: 16px;
+
+        .order-item-title {
+            font-weight: 700;
+        }
+
+        .order-item-variant-label {
+            text-decoration: none;
+            color: var(--order-table-color);
+        }
+    }
+
+    &:last-child {
+        border-radius: 0 0 16px 16px;
+    }
+
+    &:not(:last-of-type) {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .feedback-btn {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        padding: 0px 30px;
+        background-color: #000;
+        color: #fff;
+        font-size: 12px;
+
+        &:hover {
+            opacity: .8;
+        }
+    }
+}

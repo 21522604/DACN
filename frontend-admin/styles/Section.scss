@@ -1,0 +1,68 @@
+.section {
+    background-color: #fff;
+    color: black;
+    box-shadow: #CCCCCC 6px 0px 7px -3px;
+}
+
+.section {
+    .logo-box {
+        height: var(--height-header);
+        position: relative;
+    }
+
+    .logo-box::after {
+        content: '';
+        position: absolute;
+        width: 90%;
+        background-color: #CCCCCC;
+        height: 1px;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+    }
+
+    .logo {
+        width: auto;
+        max-height: var(--height-header);
+    }
+
+    .menu {
+        height: calc(100vh - (var(--height-header)));
+        overflow-y: scroll;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+
+        .sub-menu {
+            padding: 0;
+            right: 0;
+
+            li {
+                list-style: none;
+
+                a {
+                    font-size: 12px;
+                    padding: 8px 42px 8px 60px;
+                }
+            }
+        }
+
+        .menu-item a {
+            font-size: 14px;
+            padding: 12px 42px;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            transition: all 0.2s ease;
+        }
+
+        .menu-item a:hover {
+            background-color: #ccc;
+        }
+    }
+}
+
+.menu::-webkit-scrollbar {
+    width: 0.2em;
+    background-color: #F5F5F5;
+}
