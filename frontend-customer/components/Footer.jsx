@@ -69,7 +69,7 @@ const Footer = () => {
 						<ul>
 							<li>
 								<h5>
-									ELEVENT lắng nghe bạn!
+									KT lắng nghe bạn!
 								</h5>
 								<ul className='fs-13'>
 									<li>
@@ -90,7 +90,7 @@ const Footer = () => {
 									</div>
 									<div className='col-9'>
 										<p>Hotline</p>
-										<p>0819.2222.73</p>
+										<p>0368.197.969</p>
 									</div>
 								</div>
 								<div className='d-flex align-items-center' style={{ marginBottom: "12px" }}>
@@ -99,7 +99,7 @@ const Footer = () => {
 									</div>
 									<div className='col-9'>
 										<p>Email</p>
-										<p>elevent@contact.com</p>
+										<p>KT@contact.com</p>
 									</div>
 								</div>
 							</div>
@@ -107,8 +107,8 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="copy-right-box fs-11 position-relative">
-					<p className="fw-bold text-uppercase">© Công ty tnhh elevent</p>
-					<p>Mã số doanh nghiệp: 0108617038. Giấy chứng nhận đăng ký doanh nghiệp do Sở Kế hoạch và Đầu tư TP Hà Nội cấp lần đầu ngày 20/02/2019.</p>
+					<p className="fw-bold text-uppercase">© Công ty tnhh KT</p>
+					<p>Mã số doanh nghiệp: 0123456789. Giấy chứng nhận đăng ký doanh nghiệp do Sở Kế hoạch và Đầu tư TP Hà Nội cấp lần đầu ngày 15/04/2024.</p>
 				</div>
 			</div>
 		</div>

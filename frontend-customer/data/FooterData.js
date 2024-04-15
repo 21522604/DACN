@@ -31,7 +31,7 @@ export const AboutData = [
         ]
     },
     {
-        heading: "Về ELEVENT",
+        heading: "Về KT",
         list: [
             "Câu chuyện",
             "Nhà máy",
@@ -45,8 +45,7 @@ export const AddressData = [
     {
         heading: "Địa chỉ liên hệ",
         list: [
-            "HUB Cần Thơ: 112/12 Đường 3/2, Phường Hưng Lợi, Quận Ninh Kiều, TP Cần Thơ",
-            "HUB Hậu Giang: 114 Đường Lương Thế Vinh, Phường 2, Quận Cái Keo, TP Vị Thanh - Hậu Giang",
+            "Khu phố 6, P.Linh Trung, Tp.Thủ Đức, Tp.Hồ Chí Minh.",
         ]
     }
 ]
